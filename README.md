@@ -5,7 +5,7 @@
 - [Playlist Youtube](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G)
 
 ## Aulas
-### Indrodução
+### Introdução
 - [x] #001 Introdução ao Angular
 - [x] #002 Ambiente de Desenvolvimento (Node.JS, TypeScript, Angular CLI)
 - [x] #003 Hello, World! Criando primeiro projeto e o primeiro Componente
