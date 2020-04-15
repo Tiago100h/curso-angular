@@ -32,7 +32,7 @@
 - [x] #020 Angular CLI: ng lint, ng test, ng e2e
 - [x] #021 Angular CLI: Estrutura do projeto
 - [x] #022 Angular CLI: Gerando build de produção
-- [ ] #023 Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)
+- [x] #023 Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)
 
 ### Diretivas
 - [ ] #024 Introdução e tipos de diretivas no Angular
