@@ -28,7 +28,7 @@
 ### Angular CLI
 - [x] #017 Angular CLI: Instalação e criação de projetos: ng new e ng serve
 - [x] #018 Angular CLI: Criando components, services: ng generate
-- [ ] #019 Angular CLI: Usando pré-processadores (Sass, Less, Stylus)
+- [x] #019 Angular CLI: Usando pré-processadores (Sass, Less, Stylus)
 - [ ] #020 Angular CLI: ng lint, ng test, ng e2e
 - [ ] #021 Angular CLI: Estrutura do projeto
 - [ ] #022 Angular CLI: Gerando build de produção
