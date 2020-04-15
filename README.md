@@ -31,7 +31,7 @@
 - [x] #019 Angular CLI: Usando pré-processadores (Sass, Less, Stylus)
 - [x] #020 Angular CLI: ng lint, ng test, ng e2e
 - [x] #021 Angular CLI: Estrutura do projeto
-- [ ] #022 Angular CLI: Gerando build de produção
+- [x] #022 Angular CLI: Gerando build de produção
 - [ ] #023 Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)
 
 ### Diretivas
