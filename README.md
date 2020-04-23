@@ -38,7 +38,7 @@
 - [x] #024 Introdução e tipos de diretivas no Angular
 - [x] #025 Diretivas: ngIf
 - [x] #026 Diretivas: ngSwitch, ngSwitchCase e ngSwitchDefault
-- [ ] #027 Diretivas: ngFor
+- [x] #027 Diretivas: ngFor
 - [ ] #028 Diretivas: sobre o * e template
 - [ ] #029 Diretivas: ngClass
 - [ ] #030 Diretivas: ngStyle
