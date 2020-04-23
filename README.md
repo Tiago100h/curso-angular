@@ -39,7 +39,7 @@
 - [x] #025 Diretivas: ngIf
 - [x] #026 Diretivas: ngSwitch, ngSwitchCase e ngSwitchDefault
 - [x] #027 Diretivas: ngFor
-- [ ] #028 Diretivas: sobre o * e template
+- [x] #028 Diretivas: sobre o * e template
 - [ ] #029 Diretivas: ngClass
 - [ ] #030 Diretivas: ngStyle
 - [ ] #031 Operador Elvis
