@@ -41,7 +41,7 @@
 - [x] #027 Diretivas: ngFor
 - [x] #028 Diretivas: sobre o * e template
 - [x] #029 Diretivas: ngClass
-- [ ] #030 Diretivas: ngStyle
+- [x] #030 Diretivas: ngStyle
 - [ ] #031 Operador Elvis
 - [ ] #032 ng-content
 - [ ] #033 Criando uma diretiva de atributo: ElementRef e Renderer
