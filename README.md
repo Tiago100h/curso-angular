@@ -43,7 +43,7 @@
 - [x] #029 Diretivas: ngClass
 - [x] #030 Diretivas: ngStyle
 - [x] #031 Operador Elvis
-- [ ] #032 ng-content
+- [x] #032 ng-content
 - [ ] #033 Criando uma diretiva de atributo: ElementRef e Renderer
 - [ ] #034 Diretivas: HostListener e HostBinding
 - [ ] #035 Diretivas: Input e Property Binding
