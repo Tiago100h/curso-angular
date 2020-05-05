@@ -45,7 +45,7 @@
 - [x] #031 Operador Elvis
 - [x] #032 ng-content
 - [x] #033 Criando uma diretiva de atributo: ElementRef e Renderer
-- [ ] #034 Diretivas: HostListener e HostBinding
+- [x] #034 Diretivas: HostListener e HostBinding
 - [ ] #035 Diretivas: Input e Property Binding
 - [ ] #036 Criando uma diretiva de estrutura (ngElse)
 
