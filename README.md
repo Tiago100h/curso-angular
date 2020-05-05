@@ -46,7 +46,7 @@
 - [x] #032 ng-content
 - [x] #033 Criando uma diretiva de atributo: ElementRef e Renderer
 - [x] #034 Diretivas: HostListener e HostBinding
-- [ ] #035 Diretivas: Input e Property Binding
+- [x] #035 Diretivas: Input e Property Binding
 - [ ] #036 Criando uma diretiva de estrutura (ngElse)
 
 ### Serviços
