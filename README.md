@@ -54,7 +54,7 @@
 - [x] #038 Criando um serviço (Service)
 - [x] #039 Injeção de Dependência (DI) + como usar um serviço em um componente
 - [x] #040 Escopo de instâncias de serviços e módulos (singleton e várias instâncias)
-- [ ] #041 Comunicação entre componentes usando serviços (broadcast de eventos)
+- [x] #041 Comunicação entre componentes usando serviços (broadcast de eventos)
 - [ ] #042 Injetando um serviço em outro serviço
 
 ### Pipes (Filtros)
