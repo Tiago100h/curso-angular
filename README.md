@@ -55,7 +55,7 @@
 - [x] #039 Injeção de Dependência (DI) + como usar um serviço em um componente
 - [x] #040 Escopo de instâncias de serviços e módulos (singleton e várias instâncias)
 - [x] #041 Comunicação entre componentes usando serviços (broadcast de eventos)
-- [ ] #042 Injetando um serviço em outro serviço
+- [x] #042 Injetando um serviço em outro serviço
 
 ### Pipes (Filtros)
 - [ ] #043 Pipes (usando pipes, parâmetros e pipes aninhados)
