@@ -50,7 +50,7 @@
 - [x] #036 Criando uma diretiva de estrutura (ngElse)
 
 ### Serviços
-- [ ] #037 Introdução a Serviços
+- [x] #037 Introdução a Serviços
 - [ ] #038 Criando um serviço (Service)
 - [ ] #039 Injeção de Dependência (DI) + como usar um serviço em um componente
 - [ ] #040 Escopo de instâncias de serviços e módulos (singleton e várias instâncias)
