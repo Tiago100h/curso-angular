@@ -53,7 +53,7 @@
 - [x] #037 Introdução a Serviços
 - [x] #038 Criando um serviço (Service)
 - [x] #039 Injeção de Dependência (DI) + como usar um serviço em um componente
-- [ ] #040 Escopo de instâncias de serviços e módulos (singleton e várias instâncias)
+- [x] #040 Escopo de instâncias de serviços e módulos (singleton e várias instâncias)
 - [ ] #041 Comunicação entre componentes usando serviços (broadcast de eventos)
 - [ ] #042 Injetando um serviço em outro serviço
 
