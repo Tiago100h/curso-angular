@@ -62,7 +62,7 @@
 - [x] #044 Criando um Pipe
 - [x] #045 Aplicando Locale (internacionalização) nos Pipes
 - [x] #046 Pipes: Criando um Pipe Puro
-- [ ] #047 Pipes: Criando um Pipe Impuro
+- [x] #047 Pipes: Criando um Pipe Impuro
 - [ ] #048 Pipes: Async (Assíncrono)
 
 ### Rotas
