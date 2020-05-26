@@ -61,7 +61,7 @@
 - [x] #043 Pipes (usando pipes, parâmetros e pipes aninhados)
 - [x] #044 Criando um Pipe
 - [x] #045 Aplicando Locale (internacionalização) nos Pipes
-- [ ] #046 Pipes: Criando um Pipe Puro
+- [x] #046 Pipes: Criando um Pipe Puro
 - [ ] #047 Pipes: Criando um Pipe Impuro
 - [ ] #048 Pipes: Async (Assíncrono)
 
