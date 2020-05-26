@@ -58,7 +58,7 @@
 - [x] #042 Injetando um serviço em outro serviço
 
 ### Pipes (Filtros)
-- [ ] #043 Pipes (usando pipes, parâmetros e pipes aninhados)
+- [x] #043 Pipes (usando pipes, parâmetros e pipes aninhados)
 - [ ] #044 Criando um Pipe
 - [ ] #045 Aplicando Locale (internacionalização) nos Pipes
 - [ ] #046 Pipes: Criando um Pipe Puro
