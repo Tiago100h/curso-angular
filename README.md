@@ -67,7 +67,7 @@
 
 ### Rotas
 - [x] #049 Rotas: Introdução
-- [ ] #050 Rotas: Configurando rotas simples
+- [x] #050 Rotas: Configurando rotas simples
 - [ ] #051 Rotas: RouterLink: definindo rotas no template
 - [ ] #052 Rotas: Aplicando CSS em rotas ativas
 - [ ] #053 Rotas: Definindo e extraindo parâmetros de roteamento
