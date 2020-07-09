@@ -66,7 +66,7 @@
 - [x] #048 Pipes: Async (Assíncrono)
 
 ### Rotas
-- [ ] #049 Rotas: Introdução
+- [x] #049 Rotas: Introdução
 - [ ] #050 Rotas: Configurando rotas simples
 - [ ] #051 Rotas: RouterLink: definindo rotas no template
 - [ ] #052 Rotas: Aplicando CSS em rotas ativas
