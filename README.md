@@ -71,7 +71,7 @@
 - [x] #051 Rotas: RouterLink: definindo rotas no template
 - [x] #052 Rotas: Aplicando CSS em rotas ativas
 - [x] #053 Rotas: Definindo e extraindo parâmetros de roteamento
-- [ ] #054 Rotas: Escutando mudanças nos parâmetros de roteamento
+- [x] #054 Rotas: Escutando mudanças nos parâmetros de roteamento
 - [ ] #055 Rotas Imperativas: Redirecionamento via código
 - [ ] #056 Rotas: Definindo e extraindo parâmetros de url (query)
 - [ ] #057 Rotas: Criando um módulo de rotas
