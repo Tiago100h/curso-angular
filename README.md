@@ -75,7 +75,7 @@
 - [x] #055 Rotas Imperativas: Redirecionamento via código
 - [x] #056 Rotas: Definindo e extraindo parâmetros de url (query)
 - [x] #057 Rotas: Criando um módulo de rotas
-- [ ] #058 Criando um módulo de funcionalidade
+- [x] #058 Criando um módulo de funcionalidade
 - [ ] #059 Rotas: Criando um módulo de rotas de funcionalidade
 - [ ] #060 Rotas Filhas
 - [ ] #061 Rotas Filhas: desenvolvendo as telas
