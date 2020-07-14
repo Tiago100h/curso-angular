@@ -78,7 +78,7 @@
 - [x] #058 Criando um módulo de funcionalidade
 - [x] #059 Rotas: Criando um módulo de rotas de funcionalidade
 - [x] #060 Rotas Filhas
-- [ ] #061 Rotas Filhas: desenvolvendo as telas
+- [x] #061 Rotas Filhas: desenvolvendo as telas
 - [ ] #062 Rotas: Dica de Performance: Carregamento sob demanda (lazy loading)
 - [ ] #063 Rotas: Tela de Login e como não mostrar o Menu (NavBar)
 - [ ] #064 Usando Guarda de Rotas: CanActivate
