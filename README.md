@@ -82,7 +82,7 @@
 - [x] #062 Rotas: Dica de Performance: Carregamento sob demanda (lazy loading)
 - [x] #063 Rotas: Tela de Login e como não mostrar o Menu (NavBar)
 - [x] #064 Usando Guarda de Rotas: CanActivate
-- [ ] #065 Usando Guarda de Rotas: CanActivateChild
+- [x] #065 Usando Guarda de Rotas: CanActivateChild
 - [ ] #066 Usando Guarda de Rotas: CanDeactivate
 - [ ] #067 Usando Guarda de Rotas: CanDeactivate com Interface Genérica
 - [ ] #068 Usando Guarda de Rotas: Resolve: carregando dados antes da rota ser ativada
