@@ -87,7 +87,7 @@
 - [x] #067 Usando Guarda de Rotas: CanDeactivate com Interface Genérica
 - [x] #068 Usando Guarda de Rotas: Resolve: carregando dados antes da rota ser ativada
 - [x] #069 Usando Guarda de Rotas: CanLoad: como não carregar o módulo sem permissão
-- [ ] #070 Definindo rota padrão e wildcard (rota não encontrada)
+- [x] #070 Definindo rota padrão e wildcard (rota não encontrada)
 - [ ] #071 Estilo de url: HTML5 ou usando #
 
 ### Formulários (Template Driven)
