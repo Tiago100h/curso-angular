@@ -88,7 +88,7 @@
 - [x] #068 Usando Guarda de Rotas: Resolve: carregando dados antes da rota ser ativada
 - [x] #069 Usando Guarda de Rotas: CanLoad: como não carregar o módulo sem permissão
 - [x] #070 Definindo rota padrão e wildcard (rota não encontrada)
-- [ ] #071 Estilo de url: HTML5 ou usando #
+- [x] #071 Estilo de url: HTML5 ou usando #
 
 ### Formulários (Template Driven)
 - [ ] #072 Formulários (template vs data / reativo) Introdução
