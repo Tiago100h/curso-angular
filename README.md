@@ -84,7 +84,7 @@
 - [x] #064 Usando Guarda de Rotas: CanActivate
 - [x] #065 Usando Guarda de Rotas: CanActivateChild
 - [x] #066 Usando Guarda de Rotas: CanDeactivate
-- [ ] #067 Usando Guarda de Rotas: CanDeactivate com Interface Genérica
+- [x] #067 Usando Guarda de Rotas: CanDeactivate com Interface Genérica
 - [ ] #068 Usando Guarda de Rotas: Resolve: carregando dados antes da rota ser ativada
 - [ ] #069 Usando Guarda de Rotas: CanLoad: como não carregar o módulo sem permissão
 - [ ] #070 Definindo rota padrão e wildcard (rota não encontrada)
