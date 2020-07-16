@@ -93,7 +93,7 @@
 ### Formulários (Template Driven)
 - [x] #072 Formulários (template vs data / reativo) Introdução
 - [x] #073 Formulários – Criando o projeto inicial com Bootstrap 3
-- [ ] #074 Forms (template driven) Controles ngForm, ngSubmit e ngModel
+- [x] #074 Forms (template driven) Controles ngForm, ngSubmit e ngModel
 - [ ] #075 Forms (template driven) Inicializando valores com ngModel (two-way data-binding)
 - [ ] #076 Forms (template driven) Módulos e FormsModule
 - [ ] #077 Forms (template driven) Aplicando validação nos campos
