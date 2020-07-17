@@ -1,28 +1,23 @@
 <form 
     #f="ngForm" 
     (ngSubmit)="onSubmit(f)" 
-    class="needs-validation"
-    [class.was-validated]="!nome.valid && nome.touched && !email.valid && email.touched"
+    class="needs-validation novalidate"
 >
     <div class="form-group">
         <label for="nome">Nome</label>
         <input 
             type="text" 
             class="form-control" 
-            [class.is-invalid]="!nome.valid && nome.touched"
             id="nome" 
             placeholder="Nome" 
             name="nome" 
-            [ngModel]="usuario.nome" 
             required
+            [ngClass]="aplicaCssErro(nome)"
+            [ngModel]="usuario.nome" 
             #nome="ngModel"
         >
-        <div
-            [class.invalid-feedback]="!nome.valid && nome.touched"
-            *ngIf="!nome.valid && nome.touched"
-        >
-            Nome é obrigatório.
-        </div>
+        <app-campo-control-erro [mostrarErro]="campoComErro(nome)" msgErro="Nome é obrigatório.">
+        </app-campo-control-erro>
     </div>
 
     <div class="form-group">
@@ -32,18 +27,14 @@
             class="form-control"
             id="email" 
             placeholder="nome@email.com" 
-            [class.is-invalid]="!email.valid && email.touched"
             name="email" 
-            [ngModel]="usuario.email"
             required
+            [ngClass]="aplicaCssErro(email)"
+            [ngModel]="usuario.email"
             #email="ngModel"
         >
-        <div
-            [class.invalid-feedback]="!email.valid && email.touched"
-            *ngIf="!email.valid && email.touched"
-        >
-            E-mail é obrigatório.
-        </div>
+        <app-campo-control-erro [mostrarErro]="campoComErro(email)" msgErro="E-mail é obrigatório.">
+        </app-campo-control-erro>
     </div>
 
     <div class="form-row">
@@ -55,16 +46,12 @@
                 id="cep"
                 required
                 name="cep"
-                [class.is-invalid]="!cep.valid && cep.touched"
+                [ngClass]="aplicaCssErro(cep)"
                 [ngModel]="usuario.cep"
                 #cep="ngModel"
             >
-            <div
-                [class.invalid-feedback]="!cep.valid && cep.touched"
-                *ngIf="!cep.valid && cep.touched"
-            >
-                CEP é obrigatório.
-            </div>
+            <app-campo-control-erro [mostrarErro]="campoComErro(cep)" msgErro="CEP é obrigatório.">
+            </app-campo-control-erro>
         </div>
 
         <div class="form-group col-md-3">
@@ -75,16 +62,12 @@
                 id="numero"
                 required
                 name="numero"
-                [class.is-invalid]="!numero.valid && numero.touched"
+                [ngClass]="aplicaCssErro(numero)"
                 [ngModel]="usuario.numero"
                 #numero="ngModel"
             >
-            <div
-                [class.invalid-feedback]="!numero.valid && numero.touched"
-                *ngIf="!numero.valid && numero.touched"
-            >
-                Número é obrigatório.
-            </div>
+            <app-campo-control-erro [mostrarErro]="campoComErro(numero)" msgErro="Número é obrigatório.">
+            </app-campo-control-erro>
         </div>
 
         <div class="form-group col-md-6">
