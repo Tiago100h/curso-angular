@@ -101,7 +101,7 @@
 - [x] #079 Forms (template driven) Mostrando mensagens de erro de validação
 - [x] #080 Forms (template driven) Desabilitando o botão de submit para formulário inválido
 - [x] #081 Forms (Dica): Verificando dados do Form no template com JSON
-- [ ] #082 Forms (template driven) Adicionando campos de endereço (form layout Bootstrap 3)
+- [x] #082 Forms (template driven) Adicionando campos de endereço (form layout Bootstrap 3)
 - [ ] #083 Forms (template driven) Refatorando (simplificando) CSS e mensagens de erro
 - [ ] #084 Forms (template driven) Form groups (agrupando dados)
 - [ ] #085 Forms (template driven) Pesquisando endereço automaticamente com CEP

@@ -3,7 +3,6 @@
     (ngSubmit)="onSubmit(f)" 
     class="needs-validation"
     [class.was-validated]="!nome.valid && nome.touched && !email.valid && email.touched"
-    
 >
     <div class="form-group">
         <label for="nome">Nome</label>
@@ -31,9 +30,9 @@
         <input 
             type="email" 
             class="form-control"
-            [class.is-invalid]="!email.valid && email.touched"
             id="email" 
             placeholder="nome@email.com" 
+            [class.is-invalid]="!email.valid && email.touched"
             name="email" 
             [ngModel]="usuario.email"
             required
@@ -44,6 +43,118 @@
             *ngIf="!email.valid && email.touched"
         >
             E-mail é obrigatório.
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="cep">CEP</label>
+            <input 
+                type="number" 
+                class="form-control" 
+                id="cep"
+                required
+                name="cep"
+                [class.is-invalid]="!cep.valid && cep.touched"
+                [ngModel]="usuario.cep"
+                #cep="ngModel"
+            >
+            <div
+                [class.invalid-feedback]="!cep.valid && cep.touched"
+                *ngIf="!cep.valid && cep.touched"
+            >
+                CEP é obrigatório.
+            </div>
+        </div>
+
+        <div class="form-group col-md-3">
+            <label for="numero">Número</label>
+            <input 
+                type="number" 
+                class="form-control" 
+                id="numero"
+                required
+                name="numero"
+                [class.is-invalid]="!numero.valid && numero.touched"
+                [ngModel]="usuario.numero"
+                #numero="ngModel"
+            >
+            <div
+                [class.invalid-feedback]="!numero.valid && numero.touched"
+                *ngIf="!numero.valid && numero.touched"
+            >
+                Número é obrigatório.
+            </div>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="complemento">Complemento</label>
+            <input 
+                type="text" 
+                class="form-control" 
+                id="complemento"
+                name="complemento"
+                [ngModel]="usuario.complemento"
+                #complemento="ngModel"
+            >
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="rua">Rua</label>
+        <input 
+            type="text" 
+            class="form-control" 
+            id="rua" 
+            name="rua" 
+            required
+            readonly
+            [ngModel]="usuario.rua" 
+            #rua="ngModel"
+        >
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-5">
+            <label for="bairro">Bairro</label>
+            <input 
+                type="text" 
+                class="form-control" 
+                id="bairro"
+                name="bairro"
+                required
+                readonly
+                [ngModel]="usuario.bairro"
+                #bairro="ngModel"
+            >
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="cidade">Cidade</label>
+            <input 
+                type="text" 
+                class="form-control" 
+                id="cidade"
+                name="cidade"
+                required
+                readonly
+                [ngModel]="usuario.cidade"
+                #cidade="ngModel"
+            >
+        </div>
+
+        <div class="form-group col-md-3">
+            <label for="estado">Estado</label>
+            <input 
+                type="text" 
+                class="form-control" 
+                id="estado"
+                name="estado"
+                required
+                readonly
+                [ngModel]="usuario.estado"
+                #estado="ngModel"
+            >
         </div>
     </div>
 
