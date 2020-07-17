@@ -51,6 +51,7 @@
                     [ngClass]="aplicaCssErro(cep)"
                     [ngModel]="usuario.cep"
                     #cep="ngModel"
+                    (blur)="consultaCEP($event.target.value)"
                 >
                 <app-campo-control-erro [mostrarErro]="campoComErro(cep)" msgErro="CEP é obrigatório.">
                 </app-campo-control-erro>
