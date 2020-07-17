@@ -98,7 +98,7 @@
 - [x] #076 Forms (template driven) Módulos e FormsModule
 - [x] #077 Forms (template driven) Aplicando validação nos campos
 - [x] #078 Forms (template driven) Aplicando CSS na validação dos campos
-- [ ] #079 Forms (template driven) Mostrando mensagens de erro de validação
+- [x] #079 Forms (template driven) Mostrando mensagens de erro de validação
 - [ ] #080 Forms (template driven) Desabilitando o botão de submit para formulário inválido
 - [ ] #081 Forms (Dica): Verificando dados do Form no template com JSON
 - [ ] #082 Forms (template driven) Adicionando campos de endereço (form layout Bootstrap 3)
