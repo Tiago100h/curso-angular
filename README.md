@@ -103,7 +103,7 @@
 - [x] #081 Forms (Dica): Verificando dados do Form no template com JSON
 - [x] #082 Forms (template driven) Adicionando campos de endereço (form layout Bootstrap 3)
 - [x] #083 Forms (template driven) Refatorando (simplificando) CSS e mensagens de erro
-- [ ] #084 Forms (template driven) Form groups (agrupando dados)
+- [x] #084 Forms (template driven) Form groups (agrupando dados)
 - [ ] #085 Forms (template driven) Pesquisando endereço automaticamente com CEP
 - [ ] #086 Forms (template driven) Populando campos com setValue e patchValue (autocomplete CEP)
 - [ ] #087 Forms (template driven) Submetendo valores com HTTP POST

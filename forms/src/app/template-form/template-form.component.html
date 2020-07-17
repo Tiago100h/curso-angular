@@ -37,108 +37,112 @@
         </app-campo-control-erro>
     </div>
 
-    <div class="form-row">
-        <div class="form-group col-md-3">
-            <label for="cep">CEP</label>
-            <input 
-                type="number" 
-                class="form-control" 
-                id="cep"
-                required
-                name="cep"
-                [ngClass]="aplicaCssErro(cep)"
-                [ngModel]="usuario.cep"
-                #cep="ngModel"
-            >
-            <app-campo-control-erro [mostrarErro]="campoComErro(cep)" msgErro="CEP é obrigatório.">
-            </app-campo-control-erro>
+    <div ngModelGroup="endereco">
+
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="cep">CEP</label>
+                <input 
+                    type="number" 
+                    class="form-control" 
+                    id="cep"
+                    required
+                    name="cep"
+                    [ngClass]="aplicaCssErro(cep)"
+                    [ngModel]="usuario.cep"
+                    #cep="ngModel"
+                >
+                <app-campo-control-erro [mostrarErro]="campoComErro(cep)" msgErro="CEP é obrigatório.">
+                </app-campo-control-erro>
+            </div>
+
+            <div class="form-group col-md-3">
+                <label for="numero">Número</label>
+                <input 
+                    type="number" 
+                    class="form-control" 
+                    id="numero"
+                    required
+                    name="numero"
+                    [ngClass]="aplicaCssErro(numero)"
+                    [ngModel]="usuario.numero"
+                    #numero="ngModel"
+                >
+                <app-campo-control-erro [mostrarErro]="campoComErro(numero)" msgErro="Número é obrigatório.">
+                </app-campo-control-erro>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="complemento">Complemento</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    id="complemento"
+                    name="complemento"
+                    [ngModel]="usuario.complemento"
+                    #complemento="ngModel"
+                >
+            </div>
         </div>
 
-        <div class="form-group col-md-3">
-            <label for="numero">Número</label>
-            <input 
-                type="number" 
-                class="form-control" 
-                id="numero"
-                required
-                name="numero"
-                [ngClass]="aplicaCssErro(numero)"
-                [ngModel]="usuario.numero"
-                #numero="ngModel"
-            >
-            <app-campo-control-erro [mostrarErro]="campoComErro(numero)" msgErro="Número é obrigatório.">
-            </app-campo-control-erro>
-        </div>
-
-        <div class="form-group col-md-6">
-            <label for="complemento">Complemento</label>
+        <div class="form-group">
+            <label for="rua">Rua</label>
             <input 
                 type="text" 
                 class="form-control" 
-                id="complemento"
-                name="complemento"
-                [ngModel]="usuario.complemento"
-                #complemento="ngModel"
-            >
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label for="rua">Rua</label>
-        <input 
-            type="text" 
-            class="form-control" 
-            id="rua" 
-            name="rua" 
-            required
-            readonly
-            [ngModel]="usuario.rua" 
-            #rua="ngModel"
-        >
-    </div>
-
-    <div class="form-row">
-        <div class="form-group col-md-5">
-            <label for="bairro">Bairro</label>
-            <input 
-                type="text" 
-                class="form-control" 
-                id="bairro"
-                name="bairro"
+                id="rua" 
+                name="rua" 
                 required
                 readonly
-                [ngModel]="usuario.bairro"
-                #bairro="ngModel"
+                [ngModel]="usuario.rua" 
+                #rua="ngModel"
             >
         </div>
 
-        <div class="form-group col-md-4">
-            <label for="cidade">Cidade</label>
-            <input 
-                type="text" 
-                class="form-control" 
-                id="cidade"
-                name="cidade"
-                required
-                readonly
-                [ngModel]="usuario.cidade"
-                #cidade="ngModel"
-            >
+        <div class="form-row">
+            <div class="form-group col-md-5">
+                <label for="bairro">Bairro</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    id="bairro"
+                    name="bairro"
+                    required
+                    readonly
+                    [ngModel]="usuario.bairro"
+                    #bairro="ngModel"
+                >
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="cidade">Cidade</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    id="cidade"
+                    name="cidade"
+                    required
+                    readonly
+                    [ngModel]="usuario.cidade"
+                    #cidade="ngModel"
+                >
+            </div>
+
+            <div class="form-group col-md-3">
+                <label for="estado">Estado</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    id="estado"
+                    name="estado"
+                    required
+                    readonly
+                    [ngModel]="usuario.estado"
+                    #estado="ngModel"
+                >
+            </div>
         </div>
 
-        <div class="form-group col-md-3">
-            <label for="estado">Estado</label>
-            <input 
-                type="text" 
-                class="form-control" 
-                id="estado"
-                name="estado"
-                required
-                readonly
-                [ngModel]="usuario.estado"
-                #estado="ngModel"
-            >
-        </div>
     </div>
 
     <button type="submit" class="btn btn-primary" [disabled]="!f.valid">Submit</button>
