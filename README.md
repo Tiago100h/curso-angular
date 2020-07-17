@@ -95,7 +95,7 @@
 - [x] #073 Formulários – Criando o projeto inicial com Bootstrap 3
 - [x] #074 Forms (template driven) Controles ngForm, ngSubmit e ngModel
 - [x] #075 Forms (template driven) Inicializando valores com ngModel (two-way data-binding)
-- [ ] #076 Forms (template driven) Módulos e FormsModule
+- [x] #076 Forms (template driven) Módulos e FormsModule
 - [ ] #077 Forms (template driven) Aplicando validação nos campos
 - [ ] #078 Forms (template driven) Aplicando CSS na validação dos campos
 - [ ] #079 Forms (template driven) Mostrando mensagens de erro de validação
