@@ -29,8 +29,9 @@ export class TemplateFormComponent implements OnInit {
   }
 
   onSubmit(form) {
-    console.log(form);
-    console.log(this.usuario);
+    this.httpClient
+      .post('https://httpbin.org/post', JSON.stringify(form.value))
+      .subscribe(dados => console.log(dados));
   }
 
   consultaCEP(cep, form) {
@@ -49,7 +50,8 @@ export class TemplateFormComponent implements OnInit {
         this.resetaDadosForm(form);
 
         //Consulta o webservice viacep.com.br/
-        this.httpClient.get(`//viacep.com.br/ws/${cep}/json`)
+        this.httpClient
+          .get(`//viacep.com.br/ws/${cep}/json`)
           .subscribe(dados => { this.populaDadosForm(dados, form) });
 
       }
