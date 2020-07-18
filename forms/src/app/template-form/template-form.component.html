@@ -13,7 +13,7 @@
             name="nome" 
             required
             [ngClass]="aplicaCssErro(nome)"
-            [ngModel]="usuario.nome" 
+            ngModel
             #nome="ngModel"
         >
         <app-campo-control-erro [mostrarErro]="campoComErro(nome)" msgErro="Nome é obrigatório.">
@@ -30,7 +30,7 @@
             name="email" 
             required
             [ngClass]="aplicaCssErro(email)"
-            [ngModel]="usuario.email"
+            ngModel
             #email="ngModel"
         >
         <app-campo-control-erro [mostrarErro]="campoComErro(email)" msgErro="E-mail é obrigatório.">
@@ -43,15 +43,15 @@
             <div class="form-group col-md-3">
                 <label for="cep">CEP</label>
                 <input 
-                    type="number" 
+                    type="text" 
                     class="form-control" 
                     id="cep"
                     required
                     name="cep"
                     [ngClass]="aplicaCssErro(cep)"
-                    [ngModel]="usuario.cep"
+                    ngModel
                     #cep="ngModel"
-                    (blur)="consultaCEP($event.target.value)"
+                    (blur)="consultaCEP($event.target.value, f)"
                 >
                 <app-campo-control-erro [mostrarErro]="campoComErro(cep)" msgErro="CEP é obrigatório.">
                 </app-campo-control-erro>
@@ -60,13 +60,13 @@
             <div class="form-group col-md-3">
                 <label for="numero">Número</label>
                 <input 
-                    type="number" 
+                    type="text" 
                     class="form-control" 
                     id="numero"
                     required
                     name="numero"
                     [ngClass]="aplicaCssErro(numero)"
-                    [ngModel]="usuario.numero"
+                    ngModel
                     #numero="ngModel"
                 >
                 <app-campo-control-erro [mostrarErro]="campoComErro(numero)" msgErro="Número é obrigatório.">
@@ -80,7 +80,7 @@
                     class="form-control" 
                     id="complemento"
                     name="complemento"
-                    [ngModel]="usuario.complemento"
+                    ngModel
                     #complemento="ngModel"
                 >
             </div>
@@ -95,7 +95,7 @@
                 name="rua" 
                 required
                 readonly
-                [ngModel]="usuario.rua" 
+                ngModel
                 #rua="ngModel"
             >
         </div>
@@ -110,7 +110,7 @@
                     name="bairro"
                     required
                     readonly
-                    [ngModel]="usuario.bairro"
+                    ngModel
                     #bairro="ngModel"
                 >
             </div>
@@ -124,7 +124,7 @@
                     name="cidade"
                     required
                     readonly
-                    [ngModel]="usuario.cidade"
+                    ngModel
                     #cidade="ngModel"
                 >
             </div>
@@ -138,7 +138,7 @@
                     name="estado"
                     required
                     readonly
-                    [ngModel]="usuario.estado"
+                    ngModel
                     #estado="ngModel"
                 >
             </div>

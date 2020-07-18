@@ -105,7 +105,7 @@
 - [x] #083 Forms (template driven) Refatorando (simplificando) CSS e mensagens de erro
 - [x] #084 Forms (template driven) Form groups (agrupando dados)
 - [x] #085 Forms (template driven) Pesquisando endereço automaticamente com CEP
-- [ ] #086 Forms (template driven) Populando campos com setValue e patchValue (autocomplete CEP)
+- [x] #086 Forms (template driven) Populando campos com setValue e patchValue (autocomplete CEP)
 - [ ] #087 Forms (template driven) Submetendo valores com HTTP POST
 
 ### Formulários Relativos (data-driven)
