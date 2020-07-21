@@ -111,7 +111,7 @@
 ### Formulários Reativos (data-driven)
 - [x] #088 Formulários reativos (data driven) Introdução
 - [x] #089 Formulários reativos: Configuração (Módulo e Componente)
-- [ ] #090 Formulários reativos: Criando um form com código Angular
+- [x] #090 Formulários reativos: Criando um form com código Angular
 - [ ] #091 Formulários reativos: Sincronizando HTML com FormGroup
 - [ ] #092 Formulários reativos: Fazendo submit
 - [ ] #093 Formulários reativos: Resetando o form
