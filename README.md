@@ -118,7 +118,7 @@
 - [x] #094 Formulários reativos: Aplicando validação nos campos
 - [x] #095 Formulários reativos: Acesso ao FormControl no HTML e CSS de validação dos campos
 - [x] #096 Formulários reativos: Campos de endereço (migrando um form template driven para form reativo)
-- [ ] #097 Formulários reativos: Form groups (agrupando dados)
+- [x] #097 Formulários reativos: Form groups (agrupando dados)
 - [ ] #098 Formulários reativos: Autopopulando endereço com CEP (setValue e patchValue)
 - [ ] #099 Formulários reativos: Verificar validação dos campos com botão submit
 - [ ] #100 Formulários: Criando um serviço de Estados Brasileiros

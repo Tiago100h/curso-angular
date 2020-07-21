@@ -32,7 +32,7 @@
         </div>
     </div>
 
-    <div>
+    <div formGroupName="endereco">
 
         <div class="form-row">
             <div class="form-group col-md-3">
@@ -41,7 +41,7 @@
                     type="text" 
                     id="cep"
                     class="form-control" 
-                    [ngClass]="aplicaCssErro('cep')"
+                    [ngClass]="aplicaCssErro('endereco.cep')"
                     formControlName="cep" 
                 >
                 <div class="invalid-feedback">
@@ -55,7 +55,7 @@
                     type="text" 
                     id="numero"
                     class="form-control" 
-                    [ngClass]="aplicaCssErro('numero')"
+                    [ngClass]="aplicaCssErro('endereco.numero')"
                     formControlName="numero" 
                 >
                 <div class="invalid-feedback">
