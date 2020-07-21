@@ -108,8 +108,8 @@
 - [x] #086 Forms (template driven) Populando campos com setValue e patchValue (autocomplete CEP)
 - [x] #087 Forms (template driven) Submetendo valores com HTTP POST
 
-### Formulários Relativos (data-driven)
-- [ ] #088 Formulários reativos (data driven) Introdução
+### Formulários Reativos (data-driven)
+- [x] #088 Formulários reativos (data driven) Introdução
 - [ ] #089 Formulários reativos: Configuração (Módulo e Componente)
 - [ ] #090 Formulários reativos: Criando um form com código Angular
 - [ ] #091 Formulários reativos: Sincronizando HTML com FormGroup
