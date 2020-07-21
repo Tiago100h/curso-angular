@@ -1,1 +1,27 @@
-<p>data-form works!</p>
+<form class="needs-validation" [formGroup]="formulario">
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input 
+            type="text" 
+            formControlName="nome" 
+            id="nome" 
+            placeholder="Nome" 
+            class="form-control" 
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="email">E-mail</label>
+        <input 
+            type="email" 
+            formControlName="email" 
+            id="email" 
+            placeholder="nome@email.com" 
+            class="form-control"
+        >
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+    <app-form-debug [form]="formulario"></app-form-debug>
+</form>
