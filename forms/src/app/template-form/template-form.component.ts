@@ -28,10 +28,13 @@ export class TemplateFormComponent implements OnInit {
     }
   }
 
-  onSubmit(form) {
+  onSubmit(formulario) {
     this.httpClient
-      .post('https://httpbin.org/post', JSON.stringify(form.value))
-      .subscribe(dados => console.log(dados));
+      .post('https://httpbin.org/post', JSON.stringify(formulario.value))
+      .subscribe(dados => {
+        console.log(dados);
+        formulario.form.reset();
+      });
   }
 
   consultaCEP(cep, form) {
