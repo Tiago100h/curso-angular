@@ -1,4 +1,4 @@
-<form class="needs-validation" [formGroup]="formulario">
+<form class="needs-validation" [formGroup]="formulario" (ngSubmit)="onSubmit()">
     <div class="form-group">
         <label for="nome">Nome</label>
         <input 

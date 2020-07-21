@@ -113,7 +113,7 @@
 - [x] #089 Formulários reativos: Configuração (Módulo e Componente)
 - [x] #090 Formulários reativos: Criando um form com código Angular
 - [x] #091 Formulários reativos: Sincronizando HTML com FormGroup
-- [ ] #092 Formulários reativos: Fazendo submit
+- [x] #092 Formulários reativos: Fazendo submit
 - [ ] #093 Formulários reativos: Resetando o form
 - [ ] #094 Formulários reativos: Aplicando validação nos campos
 - [ ] #095 Formulários reativos: Acesso ao FormControl no HTML e CSS de validação dos campos
