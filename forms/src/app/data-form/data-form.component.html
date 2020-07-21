@@ -1,4 +1,4 @@
-<form class="needs-validation" [formGroup]="formulario" (ngSubmit)="onSubmit()">
+<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
     <div class="form-group">
         <label for="nome">Nome</label>
         <input 
@@ -6,8 +6,12 @@
             formControlName="nome" 
             id="nome" 
             placeholder="Nome" 
-            class="form-control" 
+            class="form-control"
+            [ngClass]="aplicaCssErro('nome')"
         >
+        <div class="invalid-feedback">
+            Nome é obrigatório.
+        </div>
     </div>
 
     <div class="form-group">
@@ -18,7 +22,14 @@
             id="email" 
             placeholder="nome@email.com" 
             class="form-control"
+            [ngClass]="aplicaCssErro('email')"
         >
+        <div class="invalid-feedback" *ngIf="campoObrigatorioInvalido('email')">
+            E-mail é obrigatório.
+        </div>
+        <div class="invalid-feedback" *ngIf="emailInvalido()">
+            E-mail inválido.
+        </div>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>

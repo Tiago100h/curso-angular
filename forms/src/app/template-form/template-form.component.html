@@ -16,8 +16,9 @@
             ngModel
             #nome="ngModel"
         >
-        <app-campo-control-erro [mostrarErro]="campoComErro(nome)" msgErro="Nome é obrigatório.">
-        </app-campo-control-erro>
+        <div class="invalid-feedback">
+            Nome é obrigatório.
+        </div>
     </div>
 
     <div class="form-group">
@@ -33,8 +34,9 @@
             ngModel
             #email="ngModel"
         >
-        <app-campo-control-erro [mostrarErro]="campoComErro(email)" msgErro="E-mail é obrigatório.">
-        </app-campo-control-erro>
+        <div class="invalid-feedback">
+            E-mail é obrigatório.
+        </div>
     </div>
 
     <div ngModelGroup="endereco">
@@ -53,8 +55,9 @@
                     #cep="ngModel"
                     (blur)="consultaCEP($event.target.value, f)"
                 >
-                <app-campo-control-erro [mostrarErro]="campoComErro(cep)" msgErro="CEP é obrigatório.">
-                </app-campo-control-erro>
+                <div class="invalid-feedback">
+                    CEP é obrigatório.
+                </div>                
             </div>
 
             <div class="form-group col-md-3">
@@ -69,8 +72,9 @@
                     ngModel
                     #numero="ngModel"
                 >
-                <app-campo-control-erro [mostrarErro]="campoComErro(numero)" msgErro="Número é obrigatório.">
-                </app-campo-control-erro>
+                <div class="invalid-feedback">
+                    Número é obrigatório.
+                </div>
             </div>
 
             <div class="form-group col-md-6">
