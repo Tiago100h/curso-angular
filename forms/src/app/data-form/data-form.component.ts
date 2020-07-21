@@ -24,7 +24,14 @@ export class DataFormComponent implements OnInit {
 
     this.formulario = this.formBuilder.group({
       nome: [null, [Validators.required, Validators.min(3), Validators.max(20)]],
-      email: [null, [Validators.required, Validators.email]]
+      email: [null, [Validators.required, Validators.email]],
+      cep: [null, Validators.required],
+      numero: [null, Validators.required],
+      complemento: [null],
+      rua: [null, Validators.required],
+      bairro: [null, Validators.required],
+      cidade: [null, Validators.required],
+      estado: [null, Validators.required]
     });
   }
 
@@ -44,11 +51,11 @@ export class DataFormComponent implements OnInit {
     this.formulario.reset();
   }
 
-  campoComErro(campo) {
+  campoComErro(campo: string) {
     return this.formulario.get(campo).touched && !this.formulario.get(campo).valid;
   }
   
-  campoObrigatorioInvalido(campo) {
+  campoObrigatorioInvalido(campo: string) {
     const campoControl = this.formulario.get(campo);
     return campoControl.touched && campoControl.errors && campoControl.errors['required'];
   }
@@ -58,7 +65,7 @@ export class DataFormComponent implements OnInit {
     return campoEmail.touched && campoEmail.errors && campoEmail.errors['email'];
   }
 
-  aplicaCssErro(campo) {
+  aplicaCssErro(campo: string) {
     return {
       'is-invalid': this.campoComErro(campo)
     }
