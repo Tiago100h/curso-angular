@@ -115,7 +115,7 @@
 - [x] #091 Formulários reativos: Sincronizando HTML com FormGroup
 - [x] #092 Formulários reativos: Fazendo submit
 - [x] #093 Formulários reativos: Resetando o form
-- [ ] #094 Formulários reativos: Aplicando validação nos campos
+- [x] #094 Formulários reativos: Aplicando validação nos campos
 - [ ] #095 Formulários reativos: Acesso ao FormControl no HTML e CSS de validação dos campos
 - [ ] #096 Formulários reativos: Campos de endereço (migrando um form template driven para form reativo)
 - [ ] #097 Formulários reativos: Form groups (agrupando dados)
