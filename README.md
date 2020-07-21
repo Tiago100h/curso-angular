@@ -120,7 +120,7 @@
 - [x] #096 Formulários reativos: Campos de endereço (migrando um form template driven para form reativo)
 - [x] #097 Formulários reativos: Form groups (agrupando dados)
 - [x] #098 Formulários reativos: Autopopulando endereço com CEP (setValue e patchValue)
-- [ ] #099 Formulários reativos: Verificar validação dos campos com botão submit
+- [x] #099 Formulários reativos: Verificar validação dos campos com botão submit
 - [ ] #100 Formulários: Criando um serviço de Estados Brasileiros
 - [ ] #101 Formulários: Serviço de consulta CEP + provideIn
 - [ ] #102 Formulários reativos: Combobox simples (select)

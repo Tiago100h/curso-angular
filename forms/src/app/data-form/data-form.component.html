@@ -80,9 +80,13 @@
             <input 
                 type="text" 
                 id="rua" 
-                class="form-control" 
+                class="form-control"
+                [ngClass]="aplicaCssErro('endereco.rua')"
                 formControlName="rua" 
             >
+            <div class="invalid-feedback">
+                Rua é obrigatório.
+            </div>
         </div>
 
         <div class="form-row">
@@ -92,8 +96,12 @@
                     type="text" 
                     id="bairro"
                     class="form-control" 
+                    [ngClass]="aplicaCssErro('endereco.bairro')"
                     formControlName="bairro" 
                 >
+                <div class="invalid-feedback">
+                    Bairro é obrigatório.
+                </div>
             </div>
 
             <div class="form-group col-md-4">
@@ -103,8 +111,12 @@
                     id="cidade"
                     class="form-control" 
                     name="cidade"
+                    [ngClass]="aplicaCssErro('endereco.cidade')"
                     formControlName="cidade" 
                 >
+                <div class="invalid-feedback">
+                    Cidade é obrigatório.
+                </div>
             </div>
 
             <div class="form-group col-md-3">
@@ -113,8 +125,12 @@
                     type="text" 
                     id="estado"
                     class="form-control" 
+                    [ngClass]="aplicaCssErro('endereco.estado')"
                     formControlName="estado" 
                 >
+                <div class="invalid-feedback">
+                    Estado é obrigatório.
+                </div>
             </div>
         </div>
 
