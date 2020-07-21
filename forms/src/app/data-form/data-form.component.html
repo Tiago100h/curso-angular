@@ -43,6 +43,7 @@
                     class="form-control" 
                     [ngClass]="aplicaCssErro('endereco.cep')"
                     formControlName="cep" 
+                    (blur)="consultaCEP()"
                 >
                 <div class="invalid-feedback">
                     CEP é obrigatório.
