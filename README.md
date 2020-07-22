@@ -124,7 +124,7 @@
 - [x] #100 Formulários: Criando um serviço de Estados Brasileiros
 - [x] #101 Formulários: Serviço de consulta CEP + provideIn
 - [x] #102 Formulários reativos: Combobox simples (select)
-- [ ] #103 Formulários reativos: Combobox com Objeto (ngValue e compareWith)
+- [x] #103 Formulários reativos: Combobox com Objeto (ngValue e compareWith)
 - [ ] #104 Formulários reativos: Combobox Múltiplo (Select Multiple)
 - [ ] #105 Formulários reativos: Radio Button (Botão do tipo Rádio)
 - [ ] #106 Formulários reativos: Checkbox Toggle
