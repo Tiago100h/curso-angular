@@ -125,7 +125,7 @@
 - [x] #101 Formulários: Serviço de consulta CEP + provideIn
 - [x] #102 Formulários reativos: Combobox simples (select)
 - [x] #103 Formulários reativos: Combobox com Objeto (ngValue e compareWith)
-- [ ] #104 Formulários reativos: Combobox Múltiplo (Select Multiple)
+- [x] #104 Formulários reativos: Combobox Múltiplo (Select Multiple)
 - [ ] #105 Formulários reativos: Radio Button (Botão do tipo Rádio)
 - [ ] #106 Formulários reativos: Checkbox Toggle
 - [ ] #107 Formulários reativos: FormArray: Checkboxes Dinâmicos
