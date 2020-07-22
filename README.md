@@ -123,7 +123,7 @@
 - [x] #099 Formulários reativos: Verificar validação dos campos com botão submit
 - [x] #100 Formulários: Criando um serviço de Estados Brasileiros
 - [x] #101 Formulários: Serviço de consulta CEP + provideIn
-- [ ] #102 Formulários reativos: Combobox simples (select)
+- [x] #102 Formulários reativos: Combobox simples (select)
 - [ ] #103 Formulários reativos: Combobox com Objeto (ngValue e compareWith)
 - [ ] #104 Formulários reativos: Combobox Múltiplo (Select Multiple)
 - [ ] #105 Formulários reativos: Radio Button (Botão do tipo Rádio)
