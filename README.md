@@ -128,7 +128,7 @@
 - [x] #104 Formulários reativos: Combobox Múltiplo (Select Multiple)
 - [x] #105 Formulários reativos: Radio Button (Botão do tipo Rádio)
 - [x] #106 Formulários reativos: Checkbox Toggle
-- [ ] #107 Formulários reativos: FormArray: Checkboxes Dinâmicos
+- [x] #107 Formulários reativos: FormArray: Checkboxes Dinâmicos
 - [ ] #108 Formulários reativos: Validação Customizada (FormArray Checkboxes)
 - [ ] #109 Formulários reativos: Validação Customizada (CEP)
 - [ ] #110 Formulários reativos: Validação entre dois campos (confirmar email)

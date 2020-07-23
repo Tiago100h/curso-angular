@@ -188,6 +188,20 @@
                 </div>
             </div>
         </div>
+
+        <div class="form-group col-md-4">
+            <label for="frameworks">Frameworks</label>
+            <div id="frameworks">
+                <div 
+                    class="form-check form-check-inline" 
+                    formArrayName="frameworks"
+                    *ngFor="let item of formulario.get('frameworks')['controls']; let i = index"
+                >
+                    <input class="form-check-input" [id]="i" type="checkbox" [value]="i" [formControlName]="i">
+                    <label class="form-check-label" [for]="i">{{ frameworks[i] }}</label>
+                </div>
+            </div>
+        </div>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>

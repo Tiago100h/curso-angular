@@ -21,6 +21,8 @@ export class DataFormComponent implements OnInit {
   tecnologias: any[];
   newsletterOp: any[];
 
+  frameworks = ['Angular', 'React', 'Vue', 'Sencha'];
+
   constructor(
     private formBuilder: FormBuilder,
     private httpClient: HttpClient,
@@ -65,16 +67,32 @@ export class DataFormComponent implements OnInit {
       cargo: [null],
       tecnologias: [null],
       newsletter: ['s'],
-      termos: [null, Validators.pattern('true')]
+      termos: [null, Validators.pattern('true')],
+      frameworks: this.buildFrameworks()
     });
+  }
+
+  buildFrameworks() {
+    const values = this.frameworks.map(v => new FormControl(false));
+    return this.formBuilder.array(values);
   }
 
   onSubmit() {
     console.log(this.formulario);
 
+    let valueSubmit = Object.assign({}, this.formulario.value);
+
+    valueSubmit = Object.assign(valueSubmit, {
+      frameworks: valueSubmit.frameworks
+        .map((v, i) => v ? this.frameworks[i] : null)
+        .filter(v => v !== null)
+    });
+
+    console.log(valueSubmit);
+
     if (this.formulario.valid) {
       this.httpClient
-      .post('https://httpbin.org/post', JSON.stringify(this.formulario.value))
+      .post('https://httpbin.org/post', JSON.stringify(valueSubmit))
       .subscribe(dados => {
         // this.resetar();
       },
