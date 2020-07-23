@@ -127,7 +127,7 @@
 - [x] #103 Formulários reativos: Combobox com Objeto (ngValue e compareWith)
 - [x] #104 Formulários reativos: Combobox Múltiplo (Select Multiple)
 - [x] #105 Formulários reativos: Radio Button (Botão do tipo Rádio)
-- [ ] #106 Formulários reativos: Checkbox Toggle
+- [x] #106 Formulários reativos: Checkbox Toggle
 - [ ] #107 Formulários reativos: FormArray: Checkboxes Dinâmicos
 - [ ] #108 Formulários reativos: Validação Customizada (FormArray Checkboxes)
 - [ ] #109 Formulários reativos: Validação Customizada (CEP)
