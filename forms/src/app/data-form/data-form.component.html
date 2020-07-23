@@ -139,7 +139,7 @@
     </div>
 
     <div class="form-row">
-        <div class="form-group col-md-3">
+        <div class="form-group col-md-4">
             <label for="cargo">Cargo</label>
             <select 
                 type="text" 
@@ -152,7 +152,7 @@
             </select>
         </div>
 
-        <div class="form-group col-md-3">
+        <div class="form-group col-md-4">
             <label for="tecnologias">Tecnologias</label>
             <select 
                 type="text" 
@@ -163,6 +163,16 @@
             >
                 <option *ngFor="let tecnologia of tecnologias" [value]="tecnologia.nome">{{ tecnologia.desc }}</option>
             </select>
+        </div>
+
+        <div class="form-group col-md-3">
+            <label for="newsletter">Newsletter</label>
+            <div id="newsletter">
+                <div class="form-check form-check-inline" *ngFor="let item of newsletterOp">
+                    <input class="form-check-input" name="newsletterOptions" [id]="item.valor" type="radio" [value]="item.valor" formControlName="newsletter">
+                    <label class="form-check-label" [for]="item.valor">{{ item.desc }}</label>
+                </div>
+            </div>
         </div>
     </div>
 
