@@ -197,8 +197,11 @@
                     formArrayName="frameworks"
                     *ngFor="let item of formulario.get('frameworks')['controls']; let i = index"
                 >
-                    <input class="form-check-input" [id]="i" type="checkbox" [value]="i" [formControlName]="i">
+                    <input class="form-check-input" [id]="i" type="checkbox" [value]="i" [formControlName]="i" [ngClass]="aplicaCssErro('frameworks')">
                     <label class="form-check-label" [for]="i">{{ frameworks[i] }}</label>
+                    <div class="invalid-feedback">
+                        Selecione uma opção.
+                    </div>
                 </div>
             </div>
         </div>
