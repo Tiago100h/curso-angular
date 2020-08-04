@@ -130,7 +130,7 @@
 - [x] #106 Formulários reativos: Checkbox Toggle
 - [x] #107 Formulários reativos: FormArray: Checkboxes Dinâmicos
 - [x] #108 Formulários reativos: Validação Customizada (FormArray Checkboxes)
-- [ ] #109 Formulários reativos: Validação Customizada (CEP)
+- [x] #109 Formulários reativos: Validação Customizada (CEP)
 - [ ] #110 Formulários reativos: Validação entre dois campos (confirmar email)
 - [ ] #111 Formulários reativos: Validação Assíncrona
 - [ ] #112 Formulários reativos: Serviço de Mensagens de Erros

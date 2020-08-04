@@ -45,9 +45,12 @@
                     formControlName="cep" 
                     (blur)="consultaCEP()"
                 >
-                <div class="invalid-feedback">
+                <div class="invalid-feedback" *ngIf="campoObrigatorioInvalido('endereco.cep')">
                     CEP é obrigatório.
-                </div>                
+                </div>
+                <div class="invalid-feedback" *ngIf="formulario.get('endereco.cep').hasError('cepInvalido')">
+                    CEP inválido.
+                </div>
             </div>
 
             <div class="form-group col-md-3">
