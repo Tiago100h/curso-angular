@@ -32,6 +32,21 @@
         </div>
     </div>
 
+    <div class="form-group">
+        <label for="confirmarEmail">Confirmar e-mail</label>
+        <input 
+            type="confirmarEmail" 
+            formControlName="confirmarEmail" 
+            id="confirmarEmail" 
+            placeholder="nome@email.com" 
+            class="form-control"
+            [ngClass]="aplicaCssErro('confirmarEmail')"
+        >
+        <div class="invalid-feedback" *ngIf="formulario.get('confirmarEmail').hasError('equalsTo')">
+            E-mails não são iguais.
+        </div>
+    </div>
+
     <div formGroupName="endereco">
 
         <div class="form-row">
