@@ -56,7 +56,7 @@ export class DataFormComponent implements OnInit {
     // });
 
     this.formulario = this.formBuilder.group({
-      nome: [null, [Validators.required, Validators.min(3), Validators.max(20)]],
+      nome: [null, [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
       email: [null, [Validators.required, Validators.email], [this.validarEmail.bind(this)]],
       confirmarEmail: [null, [FormValidations.equalsTo('email')]],
       endereco: this.formBuilder.group({

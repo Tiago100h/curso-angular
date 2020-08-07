@@ -9,9 +9,8 @@
             class="form-control"
             [ngClass]="aplicaCssErro('nome')"
         >
-        <div class="invalid-feedback">
-            Nome é obrigatório.
-        </div>
+        <app-error-msg [control]="formulario.get('nome')" label="Nome">
+        </app-error-msg>
     </div>
 
     <div class="form-group">
