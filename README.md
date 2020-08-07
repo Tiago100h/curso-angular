@@ -134,7 +134,7 @@
 - [x] #110 Formulários reativos: Validação entre dois campos (confirmar email)
 - [x] #111 Formulários reativos: Validação Assíncrona
 - [x] #112 Formulários reativos: Serviço de Mensagens de Erros
-- [ ] #113 Formulários reativos: Reagindo à mudanças reativamente
+- [x] #113 Formulários reativos: Reagindo à mudanças reativamente
 - [ ] #114 Formulários reativos: Campo input customizado (ControlValueAcessor)
 - [ ] #115 Formulários reativos: Classe base para Forms (herança no Angular)
 - [ ] #116 Formulários reativos: Combobox aninhado: Estado + Cidade
