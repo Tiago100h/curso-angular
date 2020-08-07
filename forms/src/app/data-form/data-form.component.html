@@ -1,5 +1,15 @@
 <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
-    <div class="form-group">
+
+    <app-input-field 
+        formControlName="nome"
+        [classeCss]="aplicaCssErro('nome')"
+        id="nome" 
+        label="Nome"
+        [control]="formulario.get('nome')"
+    >
+    </app-input-field>
+
+    <!-- <div class="form-group">
         <label for="nome">Nome</label>
         <input 
             type="text" 
@@ -10,7 +20,7 @@
             [ngClass]="aplicaCssErro('nome')"
         >
         <app-error-msg [control]="formulario.get('nome')" label="Nome"></app-error-msg>
-    </div>
+    </div> -->
 
     <div class="form-group">
         <label for="email">E-mail</label>
