@@ -136,7 +136,7 @@
 - [x] #112 Formulários reativos: Serviço de Mensagens de Erros
 - [x] #113 Formulários reativos: Reagindo à mudanças reativamente
 - [x] #114 Formulários reativos: Campo input customizado (ControlValueAcessor)
-- [ ] #115 Formulários reativos: Classe base para Forms (herança no Angular)
+- [x] #115 Formulários reativos: Classe base para Forms (herança no Angular)
 - [ ] #116 Formulários reativos: Combobox aninhado: Estado + Cidade
 
 ### Http
