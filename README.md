@@ -141,7 +141,7 @@
 
 ### Http
 - [x] #117 Http / HttpClient: Introdução
-- [ ] #118 Instalando Bootstrap 4
+- [x] #118 Instalando Bootstrap 4
 - [ ] #119 Http: Simulando Servidor REST (json-server)
 - [ ] #120 Http GET: listar registros
 - [ ] #121 Http: Dica: Variável de Ambiente
