@@ -137,7 +137,7 @@
 - [x] #113 Formulários reativos: Reagindo à mudanças reativamente
 - [x] #114 Formulários reativos: Campo input customizado (ControlValueAcessor)
 - [x] #115 Formulários reativos: Classe base para Forms (herança no Angular)
-- [ ] #116 Formulários reativos: Combobox aninhado: Estado + Cidade
+- [x] #116 Formulários reativos: Combobox aninhado: Estado + Cidade
 
 ### Http
 - [ ] #117 Http / HttpClient: Introdução

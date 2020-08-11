@@ -135,16 +135,17 @@
                 </div>
             </div>
 
-            <div class="form-group col-md-4">
+            <div class="form-group col-md-3">
                 <label for="cidade">Cidade</label>
-                <input 
+                <select 
                     type="text" 
                     id="cidade"
                     class="form-control" 
-                    name="cidade"
                     [ngClass]="aplicaCssErro('endereco.cidade')"
                     formControlName="cidade" 
                 >
+                    <option *ngFor="let cidade of cidades" [value]="cidade.nome">{{ cidade.nome }}</option>
+                </select>
                 <div class="invalid-feedback">
                     Cidade é obrigatório.
                 </div>
@@ -159,7 +160,7 @@
                     [ngClass]="aplicaCssErro('endereco.estado')"
                     formControlName="estado" 
                 >
-                    <option *ngFor="let estado of estados | async" [value]="estado.sigla">{{ estado.nome }}</option>
+                    <option *ngFor="let estado of estados" [value]="estado.sigla">{{ estado.nome }}</option>
                 </select>
                 <div class="invalid-feedback">
                     Estado é obrigatório.

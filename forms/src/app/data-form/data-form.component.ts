@@ -10,6 +10,7 @@ import { FormValidations } from '../shared/form-validations';
 import { VerificaEmailService } from './services/verifica-email.service'
 import { map, tap, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { BaseFormComponent } from '../shared/base-form/base-form.component';
+import { Cidade } from '../shared/models/cidade.model';
 
 @Component({
   selector: 'app-data-form',
@@ -18,8 +19,8 @@ import { BaseFormComponent } from '../shared/base-form/base-form.component';
 })
 export class DataFormComponent extends BaseFormComponent implements OnInit {
   
-
-  estados: Observable<EstadoBr[]>
+  estados: EstadoBr[];
+  cidades: Cidade[];
   cargos: any[];
   tecnologias: any[];
   newsletterOp: any[];
@@ -37,17 +38,13 @@ export class DataFormComponent extends BaseFormComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    this.estados = this.dropdownService.getEstadosBr();
-
+    
     this.cargos = this.dropdownService.getCargos();
     this.tecnologias = this.dropdownService.getTecnologias();
     this.newsletterOp = this.dropdownService.getNewsletter();
 
-    // this.dropdownService.getEstadosBr()
-    //   .subscribe(dados => { 
-    //     this.estados = dados;
-    //     console.log(this.estados) 
-    //   });
+    this.dropdownService.getEstadosBr()
+      .subscribe(dados => this.estados = dados);
 
     // this.formulario = new FormGroup({
     //   nome: new FormControl(null),
@@ -86,6 +83,14 @@ export class DataFormComponent extends BaseFormComponent implements OnInit {
           empty())
       )
       .subscribe(dados => dados ? this.populaDadosForm(dados) : {});
+
+    this.formulario.get('endereco.estado').valueChanges
+      .pipe(
+        map(estado => this.estados.filter(e => e.sigla === estado)),
+        map(estados => estados && estados.length > 0 ? estados[0].id : empty()),
+        switchMap((estadoId: number) => this.dropdownService.getCidades(estadoId))
+      )
+      .subscribe(cidades => this.cidades = cidades);
   }
 
   buildFrameworks() {
