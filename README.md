@@ -140,7 +140,7 @@
 - [x] #116 Formulários reativos: Combobox aninhado: Estado + Cidade
 
 ### Http
-- [ ] #117 Http / HttpClient: Introdução
+- [x] #117 Http / HttpClient: Introdução
 - [ ] #118 Instalando Bootstrap 4
 - [ ] #119 Http: Simulando Servidor REST (json-server)
 - [ ] #120 Http GET: listar registros
