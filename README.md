@@ -143,7 +143,7 @@
 - [x] #117 Http / HttpClient: Introdução
 - [x] #118 Instalando Bootstrap 4
 - [x] #119 Http: Simulando Servidor REST (json-server)
-- [ ] #120 Http GET: listar registros
+- [x] #120 Http GET: listar registros
 - [ ] #121 Http: Dica: Variável de Ambiente
 - [ ] #122 Http GET + Pipe Async
 - [ ] #123 Http + RxJS: Unsubscribe Automático
