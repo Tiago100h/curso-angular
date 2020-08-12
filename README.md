@@ -144,7 +144,7 @@
 - [x] #118 Instalando Bootstrap 4
 - [x] #119 Http: Simulando Servidor REST (json-server)
 - [x] #120 Http GET: listar registros
-- [ ] #121 Http: Dica: Variável de Ambiente
+- [x] #121 Http: Dica: Variável de Ambiente
 - [ ] #122 Http GET + Pipe Async
 - [ ] #123 Http + RxJS: Unsubscribe Automático
 - [ ] #124 Capturando Erros (+ Erro com async)
