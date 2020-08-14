@@ -146,7 +146,7 @@
 - [x] #120 Http GET: listar registros
 - [x] #121 Http: Dica: Variável de Ambiente
 - [x] #122 Http GET + Pipe Async
-- [ ] #123 Http + RxJS: Unsubscribe Automático
+- [x] #123 Http + RxJS: Unsubscribe Automático
 - [ ] #124 Capturando Erros (+ Erro com async)
 - [ ] #125 Erro Http: Alerta de Erro com Bootstrap
 - [ ] #126 Serviço de alerta genérico com Bootstrap 4
