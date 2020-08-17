@@ -147,7 +147,7 @@
 - [x] #121 Http: Dica: Variável de Ambiente
 - [x] #122 Http GET + Pipe Async
 - [x] #123 Http + RxJS: Unsubscribe Automático
-- [ ] #124 Capturando Erros (+ Erro com async)
+- [x] #124 Capturando Erros (+ Erro com async)
 - [ ] #125 Erro Http: Alerta de Erro com Bootstrap
 - [ ] #126 Serviço de alerta genérico com Bootstrap 4
 - [ ] #127 Http: Criando formulário para criar e editar cursos
