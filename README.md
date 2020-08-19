@@ -150,7 +150,7 @@
 - [x] #124 Capturando Erros (+ Erro com async)
 - [x] #125 Erro Http: Alerta de Erro com Bootstrap
 - [x] #126 Serviço de alerta genérico com Bootstrap 4
-- [ ] #127 Http: Criando formulário para criar e editar cursos
+- [x] #127 Http: Criando formulário para criar e editar cursos
 - [ ] #128 HTTP POST Criando Cursos
 - [ ] #129 Http: Editando Cursos e Observables aninhados
 - [ ] #130 Http: Editando Cursos + Resolver (Rota)

@@ -32,12 +32,6 @@ export class CursosListaComponent implements OnInit {
         return empty();
       })
     );
-
-    this.service.list().subscribe(
-      dados => console.log(dados),
-      error => console.log(error),
-      () => console.log('Observable completo!')
-    );
   }
 
   handleError() {
