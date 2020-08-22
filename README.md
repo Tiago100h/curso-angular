@@ -154,7 +154,7 @@
 - [x] #128 HTTP POST Criando Cursos
 - [x] #129 Http: Editando Cursos e Observables aninhados
 - [x] #130 Http: Editando Cursos + Resolver (Rota)
-- [ ] #131 Http PUT Atualizando Cursos
+- [x] #131 Http PUT Atualizando Cursos
 - [ ] #132 Http: Popup de Confirmação para remover Cursos
 - [ ] #133 Popup de Confirmação genérica Bootstrap 4 (com RxJS)
 - [ ] #134 Http: Serviço Genérico de CRUD
