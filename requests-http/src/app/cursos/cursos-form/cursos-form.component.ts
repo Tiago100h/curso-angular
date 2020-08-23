@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { CursosService } from '../cursos.service';
+import { Cursos2Service } from '../cursos2.service';
 import { AlertModalService } from 'src/app/shared/alert-modal.service';
 import { Location } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
@@ -17,7 +17,7 @@ export class CursosFormComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder, 
-    private service: CursosService,
+    private service: Cursos2Service,
     private modal: AlertModalService,
     private location: Location,
     private route: ActivatedRoute
