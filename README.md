@@ -159,7 +159,7 @@
 - [x] #133 Popup de Confirmação genérica Bootstrap 4 (com RxJS)
 - [x] #134 Http: Serviço Genérico de CRUD
 - [x] #135 Upload de Arquivo Formulário Upload com Bootstrap 4
-- [ ] #136 Upload de Arquivo: Back-end com Node.js
+- [x] #136 Upload de Arquivo: Back-end com Node.js
 - [ ] #137 Upload de Arquivo: Request com FormData
 - [ ] #138 Http: Removendo CORS com Angular Proxy
 - [ ] #139 Upload Arquivo: Barra de Progresso + Observando Eventos Http
