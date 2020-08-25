@@ -11,8 +11,24 @@
       >Selecionar arquivo</label
     >
   </div>
+  <div class="progress">
+    <div
+      class="progress-bar"
+      role="progressbar"
+      [style.width]="progress + '%'"
+    >
+      {{ progress }}%
+    </div>
+  </div>
 </div>
 
 <div style="margin-top: 10px;">
-  <button type="button" class="btn btn-primary" (click)="onUpload()" [disabled]="!files">Upload</button>
+  <button
+    type="button"
+    class="btn btn-primary"
+    (click)="onUpload()"
+    [disabled]="!files"
+  >
+    Upload
+  </button>
 </div>
