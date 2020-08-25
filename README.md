@@ -161,7 +161,7 @@
 - [x] #135 Upload de Arquivo Formulário Upload com Bootstrap 4
 - [x] #136 Upload de Arquivo: Back-end com Node.js
 - [x] #137 Upload de Arquivo: Request com FormData
-- [ ] #138 Http: Removendo CORS com Angular Proxy
+- [x] #138 Http: Removendo CORS com Angular Proxy
 - [ ] #139 Upload Arquivo: Barra de Progresso + Observando Eventos Http
 - [ ] #140 Criando operador RxJS customizado
 - [ ] #141 Download de Arquivo
