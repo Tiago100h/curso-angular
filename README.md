@@ -163,7 +163,7 @@
 - [x] #137 Upload de Arquivo: Request com FormData
 - [x] #138 Http: Removendo CORS com Angular Proxy
 - [x] #139 Upload Arquivo: Barra de Progresso + Observando Eventos Http
-- [ ] #140 Criando operador RxJS customizado
+- [x] #140 Criando operador RxJS customizado
 - [ ] #141 Download de Arquivo
 - [ ] #142 Criando tela de pesquisa
 - [ ] #143 Http: Passando Parâmetros na URL (HttpParams)

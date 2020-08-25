@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { UploadFileService } from "../upload-file.service";
 import { environment } from 'src/environments/environment';
 import { HttpEventType, HttpEvent } from '@angular/common/http';
+import { filterResponse, uploadProgress } from "../../shared/rxjs-operators";
 
 @Component({
   selector: 'app-upload-file',
@@ -38,17 +39,14 @@ export class UploadFileComponent implements OnInit {
   onUpload() {
     if (this.files && this.files.size > 0) {
       this.service.upload(this.files, `${environment.BASE_URL}/upload`)
-        .subscribe((event: HttpEvent<Object>) => {
-          console.log(event);
-          if (event.type === HttpEventType.Response) {
-            console.log('Upload concluído');
-          }
-          if (event.type === HttpEventType.UploadProgress) {
-            const percentDone = Math.round(event.loaded * 100 / event.total);
-            console.log('Progresso', percentDone);
-            this.progress = percentDone;
-          }
-        });
+        .pipe(
+          uploadProgress(progress => {
+            console.log(progress);
+            this.progress = progress;
+          }),
+          filterResponse()
+        )
+        .subscribe(response => console.log('upload concluído'));
     }
   }
 
