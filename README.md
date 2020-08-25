@@ -160,7 +160,7 @@
 - [x] #134 Http: Serviço Genérico de CRUD
 - [x] #135 Upload de Arquivo Formulário Upload com Bootstrap 4
 - [x] #136 Upload de Arquivo: Back-end com Node.js
-- [ ] #137 Upload de Arquivo: Request com FormData
+- [x] #137 Upload de Arquivo: Request com FormData
 - [ ] #138 Http: Removendo CORS com Angular Proxy
 - [ ] #139 Upload Arquivo: Barra de Progresso + Observando Eventos Http
 - [ ] #140 Criando operador RxJS customizado
