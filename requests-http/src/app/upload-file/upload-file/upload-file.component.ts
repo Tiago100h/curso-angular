@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UploadFileService } from "../upload-file.service";
 import { environment } from 'src/environments/environment';
-import { HttpEventType, HttpEvent } from '@angular/common/http';
 import { filterResponse, uploadProgress } from "../../shared/rxjs-operators";
 
 @Component({
@@ -48,6 +47,20 @@ export class UploadFileComponent implements OnInit {
         )
         .subscribe(response => console.log('upload concluído'));
     }
+  }
+
+  onDownloadExcel() {
+    this.service.download(`${environment.BASE_URL}/downloadExcel`)
+    .subscribe((res: any) => {
+      this.service.handleFIle(res, 'report.xlsx')
+    });
+  }
+
+  onDownloadPDF() {
+    this.service.download(`${environment.BASE_URL}/downloadPDF`)
+    .subscribe((res: any) => {
+      this.service.handleFIle(res, 'report.pdf')
+    });
   }
 
 }

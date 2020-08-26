@@ -164,7 +164,7 @@
 - [x] #138 Http: Removendo CORS com Angular Proxy
 - [x] #139 Upload Arquivo: Barra de Progresso + Observando Eventos Http
 - [x] #140 Criando operador RxJS customizado
-- [ ] #141 Download de Arquivo
+- [x] #141 Download de Arquivo
 - [ ] #142 Criando tela de pesquisa
 - [ ] #143 Http: Passando Parâmetros na URL (HttpParams)
 - [ ] #144 Pesquisa/Busca com Programação Reativa
