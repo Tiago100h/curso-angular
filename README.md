@@ -166,7 +166,7 @@
 - [x] #140 Criando operador RxJS customizado
 - [x] #141 Download de Arquivo
 - [x] #142 Criando tela de pesquisa
-- [ ] #143 Http: Passando Parâmetros na URL (HttpParams)
+- [x] #143 Http: Passando Parâmetros na URL (HttpParams)
 - [ ] #144 Pesquisa/Busca com Programação Reativa
 
 ### Depuração / Debug
