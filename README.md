@@ -170,7 +170,7 @@
 - [x] #144 Pesquisa/Busca com Programação Reativa
 
 ### Depuração / Debug
-- [ ] #145 Debug com Augury
+- [x] #145 Debug com Augury
 - [ ] #146 Debug com Visual Studio Code
 
 ### Build e Deploy
