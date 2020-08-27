@@ -171,7 +171,7 @@
 
 ### Depuração / Debug
 - [x] #145 Debug com Augury
-- [ ] #146 Debug com Visual Studio Code
+- [x] #146 Debug com Visual Studio Code
 
 ### Build e Deploy
 - [ ] #147 Build de Produção + Suporte ao Internet Explorer
