@@ -167,7 +167,7 @@
 - [x] #141 Download de Arquivo
 - [x] #142 Criando tela de pesquisa
 - [x] #143 Http: Passando Parâmetros na URL (HttpParams)
-- [ ] #144 Pesquisa/Busca com Programação Reativa
+- [x] #144 Pesquisa/Busca com Programação Reativa
 
 ### Depuração / Debug
 - [ ] #145 Debug com Augury
