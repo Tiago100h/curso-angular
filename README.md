@@ -174,7 +174,7 @@
 - [x] #146 Debug com Visual Studio Code
 
 ### Build e Deploy
-- [ ] #147 Build de Produção + Suporte ao Internet Explorer
+- [x] #147 Build de Produção + Suporte ao Internet Explorer
 - [ ] #148 Deploy em Produção (Firebase Hosting)
 - [ ] #149 Deploy em Produção com ng deploy (Firebase)
 - [ ] #150 Gerando Imagem Docker com Build de Produção
