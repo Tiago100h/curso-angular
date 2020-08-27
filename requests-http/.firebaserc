@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "curso-angular-tiago"
+  },
+  "targets": {
+    "curso-angular-tiago": {
+      "hosting": {
+        "requests-http": [
+          "curso-angular-tiago"
+        ]
+      }
+    }
   }
 }

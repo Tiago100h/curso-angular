@@ -143,8 +143,13 @@
               "devServerTarget": "requests-http:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "requests-http"
 }
