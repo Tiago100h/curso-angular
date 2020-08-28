@@ -181,5 +181,5 @@
 - [x] #151 Imagem Docker: Deploy Google Cloud (Cloud Run)
 - [x] #152 Imagem Docker: Deploy Oracle Cloud
 - [x] #153 Imagem Docker: Deploy Microsoft Azure
-- [ ] #154 Imagem Docker: Deploy Amazon AWS
+- [x] #154 Imagem Docker: Deploy Amazon AWS
 - [ ] #155 Conclusão e próximos passos
