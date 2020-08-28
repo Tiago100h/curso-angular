@@ -182,4 +182,4 @@
 - [x] #152 Imagem Docker: Deploy Oracle Cloud
 - [x] #153 Imagem Docker: Deploy Microsoft Azure
 - [x] #154 Imagem Docker: Deploy Amazon AWS
-- [ ] #155 Conclusão e próximos passos
+- [x] #155 Conclusão e próximos passos
