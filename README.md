@@ -178,7 +178,7 @@
 - [x] #148 Deploy em Produção (Firebase Hosting)
 - [x] #149 Deploy em Produção com ng deploy (Firebase)
 - [x] #150 Gerando Imagem Docker com Build de Produção
-- [ ] #151 Imagem Docker: Deploy Google Cloud (Cloud Run)
+- [x] #151 Imagem Docker: Deploy Google Cloud (Cloud Run)
 - [ ] #152 Imagem Docker: Deploy Oracle Cloud
 - [ ] #153 Imagem Docker: Deploy Microsoft Azure
 - [ ] #154 Imagem Docker: Deploy Amazon AWS
